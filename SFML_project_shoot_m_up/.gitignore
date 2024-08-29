@@ -1,0 +1,35 @@
+# Fichiers de Visual Studio à ignorer
+.vs/
+*.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de construction (Build)
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.meta
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Fichiers intermédiaires
+*.pch
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+
+# Dossiers de sortie
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
