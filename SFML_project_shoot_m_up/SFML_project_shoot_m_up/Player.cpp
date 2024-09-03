@@ -1,6 +1,7 @@
 #include "Player.h"
+#include "GameManager.h"
 
-void Player::CreatePlayer(Vector2 position, Rectangle2 bounds, float speed, float acceleration)
+void Player::InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float acceleration)
 {
 	m_position = position;
 	m_bounds = bounds;
@@ -8,20 +9,24 @@ void Player::CreatePlayer(Vector2 position, Rectangle2 bounds, float speed, floa
 	m_acceleration = acceleration;
 }
 
-void Player::DrawShape()
+void Player::DrawShape(sf::RenderWindow* window)
 {
-	m_shape.setSize(sf::Vector2f(m_bounds.x, m_bounds.y));
-	m_shape.setFillColor(sf::Color::Cyan);
-	m_shape.setPosition(sf::Vector2f(400 - (m_position.x)/2, 800 - m_position.y));
-	// faire calculs compliqués dans GameManager ou faire un initPlayer propre.
+	m_player_shape.setSize(sf::Vector2f(m_bounds.x, m_bounds.y));
+	m_player_shape.setFillColor(sf::Color::Cyan);
+	m_player_shape.setPosition(sf::Vector2f(m_position.x, m_position.y));
+	window->draw(m_player_shape);
 }
 
-sf::RectangleShape Player::GetShape()
+void Player::Shoot()
 {
-	return m_shape;
+	GameManager* temp_manager = GameManager::GetManagerInstance();
+	Vector2 projectile_position(m_position.x + (m_bounds.width / 2), m_position.y);
+	Rectangle2 projectile_bounds(projectile_position.x, projectile_position.y, 5.f, 20.f);
+	Projectile* new_projectile = temp_manager->CreateObject<Projectile>(projectile_position, projectile_bounds, 100.f, 100.f);
+	temp_manager->objects_list.push_back(new_projectile);
 }
 
-void Player::UpdatePlayer()
+void Player::Update()
 {
 	if (GameManager::IsKeyPushed('D')) {
 		Move(1);
@@ -35,19 +40,26 @@ void Player::UpdatePlayer()
 	else if (GameManager::IsKeyNone('Q')) {
 		m_speed = 100.f;
 	}
+	if (GameManager::IsKeyPushed('M')) {
+		if (GameManager::GetManagerInstance()->GetTotalTime() - m_latest_time > .20f) {
+			Shoot();
+			m_latest_time = GameManager::GetManagerInstance()->GetTotalTime();
+		}
+	}
+	
 }
 
 void Player::Move(int direction)
 {
 	m_speed += m_acceleration * GameManager::GetElapsedTime();
-	if (m_speed >= 500.f) {
-		m_speed = 500.f;
+	if (m_speed >= 600.f) {
+		m_speed = 600.f;
 	}
 	m_position.x += m_speed * direction * GameManager::GetElapsedTime();
 	if (m_position.x < 0) {
 		m_position.x = 0;
 	}
-	else if (m_position.x > GameManager::GetWindow()->getSize().x - 100.f) {
-		m_position.x = GameManager::GetWindow()->getSize().x - 100.f;
+	else if (m_position.x > GameManager::GetWindow()->getSize().x - m_bounds.x) {
+		m_position.x = GameManager::GetWindow()->getSize().x - m_bounds.x;
 	}
 }
