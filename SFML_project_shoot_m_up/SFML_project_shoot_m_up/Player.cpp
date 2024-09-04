@@ -1,6 +1,11 @@
 #include "Player.h"
 #include "GameManager.h"
 
+Player::Player()
+{
+	m_group_tag = ObjectType::PLAYER;
+}
+
 void Player::InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float acceleration)
 {
 	m_position = position;
@@ -11,10 +16,12 @@ void Player::InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float 
 
 void Player::DrawShape(sf::RenderWindow* window)
 {
-	m_player_shape.setSize(sf::Vector2f(m_bounds.x, m_bounds.y));
-	m_player_shape.setFillColor(sf::Color::Cyan);
-	m_player_shape.setPosition(sf::Vector2f(m_position.x, m_position.y));
-	window->draw(m_player_shape);
+	if (m_is_alive) {
+		m_player_shape.setSize(sf::Vector2f(m_bounds.x, m_bounds.y));
+		m_player_shape.setFillColor(sf::Color::Cyan);
+		m_player_shape.setPosition(sf::Vector2f(m_position.x, m_position.y));
+		window->draw(m_player_shape);
+	}
 }
 
 void Player::Shoot()
@@ -22,8 +29,7 @@ void Player::Shoot()
 	GameManager* temp_manager = GameManager::GetManagerInstance();
 	Vector2 projectile_position(m_position.x + (m_bounds.width / 2), m_position.y);
 	Rectangle2 projectile_bounds(projectile_position.x, projectile_position.y, 5.f, 20.f);
-	Projectile* new_projectile = temp_manager->CreateObject<Projectile>(projectile_position, projectile_bounds, 100.f, 100.f);
-	temp_manager->objects_list.push_back(new_projectile);
+	Projectile* new_projectile = temp_manager->CreateObject<Projectile>(projectile_position, projectile_bounds, 200.f, 100.f);
 }
 
 void Player::Update()
@@ -47,6 +53,11 @@ void Player::Update()
 		}
 	}
 	
+}
+
+ObjectType Player::GetType()
+{
+	return ObjectType::PLAYER;
 }
 
 void Player::Move(int direction)

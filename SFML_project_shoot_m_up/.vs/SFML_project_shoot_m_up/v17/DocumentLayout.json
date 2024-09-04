@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\EnemySpaceShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\EnemySpaceShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\EnemySpaceShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,12 +27,36 @@
       "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\EnemySpaceShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC147733-AA00-410D-A328-BFD38E8462FD}|SFML_project_shoot_m_up\\SFML_project_shoot_m_up.vcxproj|solutionrelative:SFML_project_shoot_m_up\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,143 +65,195 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 211,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 242,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SFML_project_shoot_m_up.cpp",
-              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp",
-              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp",
-              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp",
-              "RelativeToolTip": "SFML_project_shoot_m_up\\SFML_project_shoot_m_up.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-03T09:54:48.736Z",
+              "DocumentIndex": 8,
+              "Title": "Controller.h",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Controller.h",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Controller.h",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Controller.h",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\Controller.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T13:53:43.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp",
-              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp",
-              "RelativeToolTip": "SFML_project_shoot_m_up\\GameManager.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-28T09:01:35.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.cpp",
               "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Player.cpp",
               "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.cpp",
               "RelativeToolTip": "SFML_project_shoot_m_up\\Player.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-29T08:28:34.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "EnemySpaceShip.cpp",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-03T11:30:42.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Level.cpp",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.cpp",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Level.cpp",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.cpp",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\Level.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T07:07:07.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.cpp",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameObject.cpp",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.cpp",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\GameObject.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T07:57:23.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Projectile.cpp",
               "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.cpp",
               "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Projectile.cpp",
               "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.cpp",
               "RelativeToolTip": "SFML_project_shoot_m_up\\Projectile.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T08:53:38.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemySpaceShip.cpp",
-              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
-              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
-              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
-              "RelativeToolTip": "SFML_project_shoot_m_up\\EnemySpaceShip.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.cpp",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\GameManager.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-03T11:30:42.606Z",
+              "WhenOpened": "2024-08-28T09:01:35.305Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 158,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemySpaceShip.h",
-              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h",
-              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\EnemySpaceShip.h",
-              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h",
-              "RelativeToolTip": "SFML_project_shoot_m_up\\EnemySpaceShip.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T11:15:04.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.h",
               "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Player.h",
               "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Player.h",
               "RelativeToolTip": "SFML_project_shoot_m_up\\Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-29T08:15:05.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.h",
               "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameObject.h",
               "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameObject.h",
               "RelativeToolTip": "SFML_project_shoot_m_up\\GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-03T07:50:23.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.h",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameManager.h",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.h",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\GameManager.h",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-28T09:01:08.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Projectile.h",
               "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.h",
               "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Projectile.h",
               "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Projectile.h",
               "RelativeToolTip": "SFML_project_shoot_m_up\\Projectile.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-02T08:28:40.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.h",
-              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\GameManager.h",
-              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\GameManager.h",
-              "RelativeToolTip": "SFML_project_shoot_m_up\\GameManager.h",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAWAAAA",
+              "DocumentIndex": 6,
+              "Title": "Rectangle.h",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Rectangle.h",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Rectangle.h",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Rectangle.h",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\Rectangle.h",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-28T09:01:08.109Z",
+              "WhenOpened": "2024-09-04T07:39:45.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemySpaceShip.h",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\EnemySpaceShip.h",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\EnemySpaceShip.h",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\EnemySpaceShip.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T11:15:04.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Level.h",
+              "DocumentMoniker": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.h",
+              "RelativeDocumentMoniker": "SFML_project_shoot_m_up\\Level.h",
+              "ToolTip": "C:\\Users\\Guestlyon\\source\\repos\\SFML_project_shoot_m_up\\SFML_project_shoot_m_up\\Level.h",
+              "RelativeToolTip": "SFML_project_shoot_m_up\\Level.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T07:06:48.872Z",
               "EditorCaption": ""
             }
           ]

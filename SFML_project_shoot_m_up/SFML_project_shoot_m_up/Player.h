@@ -6,11 +6,15 @@
 class Player : public SpaceShip
 {
 public:
+	Player();
+
 	void InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float acceleration);
 	void DrawShape(sf::RenderWindow* window) override;
 	void Shoot();
 	void Move(int direction);
 	void Update() override;
+	ObjectType GetType() override;
+
 
 protected:
 	sf::RectangleShape m_player_shape;

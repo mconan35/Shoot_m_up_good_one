@@ -138,6 +138,7 @@
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="Level.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="ObjectState.h" />
     <ClInclude Include="Obstacle.h" />
@@ -157,6 +158,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="ObjectState.cpp" />
     <ClCompile Include="Obstacle.cpp" />
     <ClCompile Include="Player.cpp" />

@@ -6,6 +6,7 @@
 #include "Vector2.h"
 #include "Rectangle.h"
 #include "GameObject.h"
+#include "Level.h"
 
 class Projectile;
 
@@ -20,7 +21,6 @@ public:
 	void Run();
 	void GlobalUpdate();
 	void Render();
-	void SpawnEnemies();
 	static bool IsKeyNone(int key);
 	static bool IsKeyDown(int key);
 	static bool IsKeyPushed(int key);
@@ -29,23 +29,20 @@ public:
 	static sf::RenderWindow* GetWindow();
 	static GameManager* GetManagerInstance();
 	template<class T> T* CreateObject(Vector2 position, Rectangle2 bounds, float speed, float acceleration);
+	static std::list<GameObject*>& GetObjectList();
 
 	virtual ~GameManager() = default;
-
-	std::list<GameObject*> objects_list;
 
 protected:
 	sf::RenderWindow* m_pWindow;
 	sf::RectangleShape m_shape;
 	Timer m_generic_timer;
-	Controller current_controller;
+	Controller m_current_controller;
 	Player* m_main_character;
 	Vector2* m_base_position;
 	Projectile* m_current_projectile;
-	// Pour spawn d'ennemis
-	float m_latest_time = 0.0f;
-	int m_max_ennemies_nb = 5;
-	int m_current_enemies_nb = 0;
+	Level m_current_level;
+	std::list<GameObject*> objects_list;
 };
 
 template<class T> T* GameManager::CreateObject(Vector2 position, Rectangle2 bounds, float speed, float acceleration) {

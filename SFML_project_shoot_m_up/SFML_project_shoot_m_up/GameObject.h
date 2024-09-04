@@ -3,6 +3,12 @@
 #include "Vector2.h"
 #include "Rectangle.h"
 
+enum ObjectType {
+	PLAYER,
+	PROJECTILE,
+	ENEMY
+};
+
 class GameObject
 {
 public:
@@ -11,9 +17,15 @@ public:
 
 	void Destroy();
 	bool IsDestroy();
+	Rectangle2 GetBounds();
+	bool IsColliding(GameObject* object);
+	void SetGrouptTag(ObjectType type);
+	int GetGroupTag();
 
 	virtual void Update() = 0;
 	virtual void DrawShape(sf::RenderWindow* window) = 0;
+	virtual ObjectType GetType() = 0;
+
 
 	virtual ~GameObject() = default;
 
@@ -22,6 +34,8 @@ protected:
 	Rectangle2 m_bounds;
 	float m_speed;
 	float m_acceleration;
+	float m_center;
 	bool m_is_alive;
+	int m_group_tag;
 };
 

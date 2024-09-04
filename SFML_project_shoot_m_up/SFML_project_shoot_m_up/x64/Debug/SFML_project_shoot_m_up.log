@@ -1,8 +1,7 @@
-﻿  GameManager.cpp
-C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\SFML_project_shoot_m_up\GameManager.cpp(68,89): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+﻿  Level.cpp
+C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\SFML_project_shoot_m_up\Level.cpp(17,25): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
           with
           [
               T=unsigned int
           ]
-C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\SFML_project_shoot_m_up\GameManager.cpp(68,69): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
   SFML_project_shoot_m_up.vcxproj -> C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\x64\Debug\SFML_project_shoot_m_up.exe

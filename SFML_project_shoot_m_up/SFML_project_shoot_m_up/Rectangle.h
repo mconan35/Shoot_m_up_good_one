@@ -25,9 +25,9 @@ struct Rectangle2 {
 
     // Méthode pour vérifier si ce rectangle intersecte un autre rectangle
     bool Intersects(const Rectangle2& other) const {
-        return (x < other.x + other.width) &&
-            (x + width > other.x) &&
-            (y < other.y + other.height) &&
-            (y + height > other.y);
+        return (x <= other.x + other.width) &&
+            (x + width >= other.x) &&
+            (y <= other.y + other.height) &&
+            (y + height >= other.y);
     }
 };
