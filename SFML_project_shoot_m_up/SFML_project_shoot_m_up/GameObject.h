@@ -34,8 +34,6 @@ protected:
 	Rectangle2 m_bounds;
 	float m_speed;
 	float m_acceleration;
-	float m_center;
 	bool m_is_alive;
 	int m_group_tag;
 };
-

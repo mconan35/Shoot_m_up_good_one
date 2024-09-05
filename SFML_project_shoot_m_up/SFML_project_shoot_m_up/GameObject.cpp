@@ -7,7 +7,6 @@ void GameObject::InitGameObject(Vector2 position, Rectangle2 bounds, float speed
     m_bounds.SetRectangle(bounds.x, bounds.y, bounds.width, bounds.height);
     m_speed = speed;
     m_acceleration = acceleration;
-    m_center = GetBounds().height / 2 + GetBounds().width / 2;
     m_is_alive = true;
 }
 
@@ -26,10 +25,25 @@ Rectangle2 GameObject::GetBounds()
 
 bool GameObject::IsColliding(GameObject* object)
 {
-    float distance_x = (object->m_position.x + object->GetBounds().x / 2) - (m_position.x + GetBounds().x / 2);
-    float distance_y = (object->m_position.y + object->GetBounds().y / 2) - (m_position.y + GetBounds().y / 2);
-    float distance_total = sqrt(distance_x* distance_x + distance_y* distance_y);
-    return distance_total <= m_center + object->m_center;
+    if (this == object)
+        return false;
+
+    if (GetGroupTag() == object->GetGroupTag())
+        return false;
+
+    if ( m_bounds.y + m_bounds.height <= object->m_bounds.y )
+        return false;
+
+    if ( m_bounds.y >= object->m_bounds.y + object->m_bounds.height)
+        return false;
+
+    if (m_bounds.x + m_bounds.width <= object->m_bounds.x)
+        return false;
+
+    if (m_bounds.x >= object->m_bounds.x + object->m_bounds.width)
+        return false;
+
+    return true;
 }
 
 void GameObject::SetGrouptTag(ObjectType type)

@@ -1,7 +1,2 @@
-﻿  Level.cpp
-C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\SFML_project_shoot_m_up\Level.cpp(17,25): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
-          with
-          [
-              T=unsigned int
-          ]
+﻿  Projectile.cpp
   SFML_project_shoot_m_up.vcxproj -> C:\Users\Guestlyon\source\repos\SFML_project_shoot_m_up\x64\Debug\SFML_project_shoot_m_up.exe

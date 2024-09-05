@@ -17,8 +17,9 @@ void Player::InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float 
 void Player::DrawShape(sf::RenderWindow* window)
 {
 	if (m_is_alive) {
-		m_player_shape.setSize(sf::Vector2f(m_bounds.x, m_bounds.y));
+		m_player_shape.setSize(sf::Vector2f(m_bounds.width, m_bounds.height));
 		m_player_shape.setFillColor(sf::Color::Cyan);
+		m_player_shape.setOrigin(50.0f, 50.0f);
 		m_player_shape.setPosition(sf::Vector2f(m_position.x, m_position.y));
 		window->draw(m_player_shape);
 	}
@@ -35,15 +36,27 @@ void Player::Shoot()
 void Player::Update()
 {
 	if (GameManager::IsKeyPushed('D')) {
-		Move(1);
+		MoveX(1);
 	}
 	else if (GameManager::IsKeyPushed('Q')) {
-		Move(-1);
+		MoveX(-1);
+	}
+	else if (GameManager::IsKeyPushed('Z')) {
+		MoveY(-1);
+	}
+	else if (GameManager::IsKeyPushed('S')) {
+		MoveY(1);
 	}
 	else if (GameManager::IsKeyNone('D')) {
 		m_speed = 100.f;
 	}
 	else if (GameManager::IsKeyNone('Q')) {
+		m_speed = 100.f;
+	}
+	else if (GameManager::IsKeyNone('Z')) {
+		m_speed = 100.f;
+	}
+	else if (GameManager::IsKeyNone('S')) {
 		m_speed = 100.f;
 	}
 	if (GameManager::IsKeyPushed('M')) {
@@ -60,7 +73,7 @@ ObjectType Player::GetType()
 	return ObjectType::PLAYER;
 }
 
-void Player::Move(int direction)
+void Player::MoveX(int direction)
 {
 	m_speed += m_acceleration * GameManager::GetElapsedTime();
 	if (m_speed >= 600.f) {
@@ -72,5 +85,20 @@ void Player::Move(int direction)
 	}
 	else if (m_position.x > GameManager::GetWindow()->getSize().x - m_bounds.x) {
 		m_position.x = GameManager::GetWindow()->getSize().x - m_bounds.x;
+	}
+}
+
+void Player::MoveY(int direction)
+{
+	m_speed += m_acceleration * GameManager::GetElapsedTime();
+	if (m_speed >= 600.f) {
+		m_speed = 600.f;
+	}
+	m_position.y += m_speed * direction * GameManager::GetElapsedTime();
+	if (m_position.y < 0) {
+		m_position.y = 0;
+	}
+	else if (m_position.y > GameManager::GetWindow()->getSize().y - m_bounds.y) {
+		m_position.y = GameManager::GetWindow()->getSize().y - m_bounds.y;
 	}
 }

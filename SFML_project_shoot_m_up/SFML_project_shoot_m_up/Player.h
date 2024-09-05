@@ -11,7 +11,8 @@ public:
 	void InitPlayer(Vector2 position, Rectangle2 bounds, float speed, float acceleration);
 	void DrawShape(sf::RenderWindow* window) override;
 	void Shoot();
-	void Move(int direction);
+	void MoveX(int direction);
+	void MoveY(int direction);
 	void Update() override;
 	ObjectType GetType() override;
 

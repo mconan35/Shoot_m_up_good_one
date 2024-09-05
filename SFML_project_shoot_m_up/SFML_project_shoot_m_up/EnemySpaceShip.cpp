@@ -9,8 +9,9 @@ EnemySpaceShip::EnemySpaceShip()
 void EnemySpaceShip::DrawShape(sf::RenderWindow* window)
 {
 	if(m_is_alive){
-		m_ennemy_shape.setSize(sf::Vector2f(75.f, 75.f));
+		m_ennemy_shape.setSize(sf::Vector2f(50.f, 50.f));
 		m_ennemy_shape.setFillColor(sf::Color::Magenta);
+		m_ennemy_shape.setOrigin(50.f, 50.f);
 		m_ennemy_shape.setPosition(100.f, 100.f);
 		window->draw(m_ennemy_shape);
 	}

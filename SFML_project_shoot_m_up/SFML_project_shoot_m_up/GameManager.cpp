@@ -9,11 +9,12 @@ GameManager::GameManager()
 
 void GameManager::Run()
 {
-    Vector2* m_base_position = new Vector2(100.f, 100.f);
-    Vector2* relative_position = new Vector2(400.f - (m_base_position->x) / 2, 800.f - m_base_position->y);
+    Vector2 pos(400.f, 700.f);
+    Rectangle2 box(pos.x - 50.0f, pos.y - 50.0f, 100.0f, 100.0f);
+ 
     m_pWindow = new sf::RenderWindow(sf::VideoMode(800, 800), "SFML wooorks!");
     m_main_character = new Player;
-    m_main_character->InitPlayer(*relative_position, Rectangle2(m_base_position->x, m_base_position->y, 50.f, 75.f), 50.f, 400.f);
+    m_main_character->InitPlayer(pos, box, 50.f, 400.f);
     objects_list.push_back(m_main_character);
     while (m_pWindow->isOpen())
     {
@@ -28,10 +29,6 @@ void GameManager::Run()
     }
     delete m_pWindow;
     m_pWindow = nullptr;
-    delete m_base_position;
-    m_base_position = nullptr;
-    delete relative_position;
-    relative_position = nullptr;
 }
 
 void GameManager::GlobalUpdate()

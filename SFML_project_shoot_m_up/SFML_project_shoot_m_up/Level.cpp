@@ -16,7 +16,7 @@ void Level::SpawnEnemies()
             std::max(0.0f, static_cast<float>(std::rand() % (m_pWindow->getSize().x - 50))),
             std::rand() % (m_pWindow->getSize().y / 2)
         );
-        Rectangle2 projectile_bounds(enemy_position.x, enemy_position.y, 50.f, 50.f);
+        Rectangle2 projectile_bounds(enemy_position.x-50.0f, enemy_position.y-50.0f, 50.f, 50.f);
         EnemySpaceShip* new_enemy = GameManager::GetManagerInstance()->CreateObject<EnemySpaceShip>(enemy_position, projectile_bounds, 0.f, 0.f);
         m_current_enemies_nb++;
     }
@@ -37,9 +37,8 @@ void Level::CollisionManager()
         for (auto other_iterator = GameManager::GetObjectList().begin(); other_iterator != GameManager::GetObjectList().end(); ++other_iterator) {
             GameObject* other_object = *other_iterator;            
             OutputDebugStringA("Avant IF\r\n");
-            if ((*iterator)->IsColliding((*other_iterator)) &&
-                (*iterator)->GetGroupTag() != (*other_iterator)->GetGroupTag()
-                ){
+            if (object->IsColliding(other_object))
+            {
                 OutputDebugStringA("Après\r\n");
                 object->Destroy();
                 other_object->Destroy();
